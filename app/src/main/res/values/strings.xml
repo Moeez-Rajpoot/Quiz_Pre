@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LAB_TASK_4</string>
+
+    <string name="example_radiogroup">Example showing RadioGroup</string>
+    <string-array name="Questions">
+
+        <item> What is Android ?</item>
+        <item> What are the features of Android architecture ?</item>
+        <item> What is an activity ?</item>
+        <item> What is a service in Android ?</item>
+        <item> What is Google Android SDK ?</item>
+        <item> What is the use of Bundle in Android ?</item>
+        <item> What is an Adapter in Android ?</item>
+        <item> What is AAPT ?</item>
+        <item> What is Android Debug Bridge ?</item>
+        <item> What is AIDL ?</item>
+    </string-array>
+
+    <string-array name="Answers">
+
+        <item> Android is an open-sourced operating system that is used on mobile devices, such as mobiles and tablets. The Android application executes within its own process and its own instance of Dalvik Virtual Machine(DVM) or Android RunTime(ART)</item>
+        <item> Android architecture refers to the various layers in the Android stack. It consists of operating systems, middleware, and applications. Each layer in the Android architecture gives different services to the layer just above it.</item>
+        <item> Activity in java is a single screen that represents GUI(Graphical User Interface) with which users can interact in order to do something like dial the phone, view email, etc</item>
+        <item> Service is an application component that facilitates an application to run in the background in order to perform long-running operations without user interaction. A service can run continuously in the background even if the application is closed or even after the user switches to another application</item>
+        <item> The Google Android SDK is a toolset used by developers to write applications on Android-enabled devices.</item>
+        <item> Bundles are used to pass the required data between various Android activities. These are like HashMap that can take trivial data types. Below code shows how to transfer a piece of data by using bundle</item>
+        <item> An adapter in Android acts as a bridge between an AdapterView and the underlying data for that view. The adapter holds the data and sends the data to the adapter view, the view can take the data from the adapter view and shows the data on different views like a spinner, list view, grid view, etc</item>
+        <item> AAPT stands for Android Asset Packaging Tool. It is a build tool that gives the ability to developers to view, create, and update ZIP-compatible archives (zip, jar, and apk). It parses, indexes, and compiles the resources into a binary format that is optimized for the platform of Android</item>
+        <item> Android Debug Bridge is a command-line tool used to allow and control communication with an emulator instance. It gives the power for developers to execute remote shell commands to run applications on an emulator</item>
+        <item> AIDL(Android Interface Definition Language) is a tool that handles the interface requirements between a client and a service for interprocess communication(IPC) to communicate at the same level.</item>
+    </string-array>
+</resources>
