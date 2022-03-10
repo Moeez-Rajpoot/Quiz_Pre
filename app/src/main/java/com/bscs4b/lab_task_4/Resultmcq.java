@@ -15,6 +15,7 @@ public class Resultmcq extends AppCompatActivity {
     Button menu;
     Button again;
     TextView head;
+    String str3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,16 +31,23 @@ public class Resultmcq extends AppCompatActivity {
         Intent intent = getIntent();
         Integer str1 = intent.getIntExtra("c",0);
         Integer str2 = intent.getIntExtra("w",0);
-        String str3 = intent.getStringExtra("s");
+        str3 = intent.getStringExtra("s");
 
         Correct.setText("Correct : "+ str1);
         Wrong.setText("Wrong :  " + str2);
-        head.setText(""+ str3);
 
+        String Q="Q";
+        if (str3.equals(Q))
+        {
+            head.setText("MCQ'S RESULT");
+        }
+        else {
+            head.setText("" + str3);
+        }
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (str3=="MCQ'S RESULT") {
+                if (str3.equals(Q)) {
                     Intent intent1 = new Intent(getApplicationContext(), Quiz.class);
                     startActivity(intent1);
                 }

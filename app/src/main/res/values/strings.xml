@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LAB_TASK_4</string>
+    <string name="app_name">QUIZ MAKER</string>
 
     <string name="example_radiogroup">Example showing RadioGroup</string>
     <string-array name="Questions">

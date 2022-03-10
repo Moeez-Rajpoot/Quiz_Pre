@@ -249,7 +249,7 @@ public class Quiz extends AppCompatActivity {
 
         intent.putExtra("c",correct);
         intent.putExtra("w",wrong);
-        String STR="MCQ'S RESULT";
+        String STR="Q";
         intent.putExtra("s",STR);
         startActivity(intent);
 

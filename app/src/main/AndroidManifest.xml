@@ -4,9 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/back"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LAB_TASK_4" >
         <activity
