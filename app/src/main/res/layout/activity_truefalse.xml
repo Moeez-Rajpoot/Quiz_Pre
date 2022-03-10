@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     android:background="@drawable/back"
     android:orientation="vertical"
-    tools:context=".Quiz">
+    tools:context=".truefalse">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="#228FC8"
         android:fontFamily="@font/abril_fatface"
         android:gravity="center"
-        android:text="MCQ'S QUIZ"
+        android:text="TRUE AND FALSE"
         android:textColor="#FFFFFF"
         android:textSize="24sp" />
 
@@ -35,8 +35,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="1) Android is"
-                android:textColor="#60D8D4"
+                android:text="1) Digital camera is input device used to take photographs"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
@@ -48,8 +48,8 @@
                     android:id="@+id/radioButton2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="mcq1"
-                    android:text="an operating system"
+                    android:onClick="T1"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -57,17 +57,10 @@
                     android:id="@+id/radioButton3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a web browser"
-                    android:onClick="mcq1"
+                    android:onClick="T1"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="a web server"
-                    android:onClick="mcq1"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <TextView
@@ -75,10 +68,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="2) Under which of the following Android is licensed?"
-                android:textColor="#60D8D4"
+                android:text="2) FAX stands for First Away Xerox"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -87,8 +81,8 @@
                     android:id="@+id/radioButton5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="OSS"
-                    android:onClick="mcq2"
+                    android:onClick="T2"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -96,17 +90,10 @@
                     android:id="@+id/radioButton6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sourceforge"
-                    android:onClick="mcq2"
+                    android:onClick="T2"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Apache/MIT"
-                    android:onClick="mcq2"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <TextView
@@ -114,10 +101,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="3) For which of the following Android is mainly developed?"
-                android:textColor="#60D8D4"
+                android:text="3) Whaling / Whaling attack is a kind of phishing attacks that target senior executives and other high profile to access valuable information"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -126,8 +114,8 @@
                     android:id="@+id/radioButton8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Desktops"
-                    android:onClick="mcq3"
+                    android:onClick="T3"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -135,17 +123,10 @@
                     android:id="@+id/radioButton9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Laptops"
-                    android:onClick="mcq3"
+                    android:onClick="T3"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Mobile devices"
-                    android:onClick="mcq3"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <TextView
@@ -153,10 +134,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="4) Which of the following is the first mobile phone released that ran the Android OS?"
-                android:textColor="#60D8D4"
+                android:text="4) Freeware is software that is available for use at no monetary cost"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -165,8 +147,8 @@
                     android:id="@+id/radioButton11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HTC Hero"
-                    android:onClick="mcq4"
+                    android:onClick="T4"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -174,17 +156,10 @@
                     android:id="@+id/radioButton12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Google gPhone"
-                    android:onClick="mcq4"
+                    android:onClick="T4"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="T - Mobile G1"
-                    android:onClick="mcq4"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <TextView
@@ -192,10 +167,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="5) Which of the following virtual machine is used by the Android operating system?"
-                android:textColor="#60D8D4"
+                android:text="5) IPv6 Internet Protocol address is represented as eight groups of four Octal digits"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -204,8 +180,8 @@
                     android:id="@+id/radioButton14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="JVM"
-                    android:onClick="mcq5"
+                    android:onClick="T5"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -213,17 +189,10 @@
                     android:id="@+id/radioButton15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dalvik virtual machine"
-                    android:onClick="mcq5"
+                    android:onClick="T5"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Simple virtual machine"
-                    android:onClick="mcq5"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <TextView
@@ -231,10 +200,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="6) Android is based on which of the following language?"
-                android:textColor="#60D8D4"
+                android:text="6) The hexadecimal number system contains digits from 1 - 15"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -243,8 +213,8 @@
                     android:id="@+id/radioButton17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Java"
-                    android:onClick="mcq6"
+                    android:onClick="T6"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -252,17 +222,10 @@
                     android:id="@+id/radioButton18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="C++"
-                    android:onClick="mcq6"
+                    android:onClick="T6"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="C"
-                    android:onClick="mcq6"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <TextView
@@ -270,10 +233,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="7) APK stands for -"
-                android:textColor="#60D8D4"
+                android:text="7) Octal number system contains digits from 0 - 7"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -282,36 +246,31 @@
                     android:id="@+id/radioButton20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Android Phone Kit"
+                    android:onClick="T7"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
-                    android:onClick="mcq7"
                     android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/radioButton21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Android Page Kit"
-                    android:onClick="mcq7"
+                    android:onClick="T7"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton22"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Android Package Kit"
-                    android:onClick="mcq7"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
+
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="8) What does API stand for?"
-                android:textColor="#60D8D4"
+                android:text="8) MS Word is a hardware."
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -320,36 +279,31 @@
                     android:id="@+id/radioButton23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Application Programming Interface"
+                    android:onClick="T8"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
-                    android:onClick="mcq8"
                     android:textSize="16sp" />
 
                 <RadioButton
                     android:id="@+id/radioButton24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Android Programming Interface"
-                    android:onClick="mcq8"
+                    android:onClick="T8"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton25"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Android Page Interface"
-                    android:onClick="mcq8"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
+
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="9) Which of the following converts Java byte code into Dalvik byte code?"
-                android:textColor="#60D8D4"
+                android:text="9) FAX stands for First Away Xerox"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -358,8 +312,8 @@
                     android:id="@+id/radioButton26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dalvik converter"
-                    android:onClick="mcq9"
+                    android:onClick="T9"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -367,27 +321,22 @@
                     android:id="@+id/radioButton27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Dex compiler"
-                    android:onClick="mcq9"
+                    android:onClick="T9"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton28"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Mobile interpretive compiler (MIC)"
-                    android:onClick="mcq9"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
+
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="10) How can we stop the services in android?"
-                android:textColor="#60D8D4"
+                android:text="10) api stands for application programming interface"
+                android:textColor="#10E60A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
@@ -396,8 +345,8 @@
                     android:id="@+id/radioButton29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="By using the stopSelf() and stopService() method"
-                    android:onClick="mcq10"
+                    android:onClick="T10"
+                    android:text="TRUE"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
 
@@ -405,17 +354,10 @@
                     android:id="@+id/radioButton30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="By using the finish() method"
-                    android:onClick="mcq10"
+                    android:onClick="T10"
+                    android:text="FALSE"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/radioButton31"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="By using system.exit() method"
-                    android:onClick="mcq10"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <Button
@@ -425,9 +367,10 @@
                 android:layout_gravity="center"
                 android:background="@drawable/rounded_gradain_button"
                 android:gravity="center"
-                android:onClick="submit"
+                android:onClick="SUBMIT"
                 android:text="Submit" />
         </LinearLayout>
     </ScrollView>
+
 
 </LinearLayout>

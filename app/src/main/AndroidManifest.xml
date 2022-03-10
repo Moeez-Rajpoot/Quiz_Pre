@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bscs4b.lab_task_4">
+    package="com.bscs4b.lab_task_4" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LAB_TASK_4">
+        android:theme="@style/Theme.LAB_TASK_4" >
+        <activity
+            android:name=".truefalse"
+            android:exported="false" />
+        <activity
+            android:name=".Resultmcq"
+            android:exported="false" />
         <activity
             android:name=".Quiz"
             android:exported="false" />
@@ -17,7 +23,7 @@
             android:exported="false" />
         <activity
             android:name=".Splash_Screen"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +32,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>

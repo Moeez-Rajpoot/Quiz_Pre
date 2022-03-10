@@ -8,21 +8,29 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Splash_Screen extends AppCompatActivity {
 
     ImageView Pic;
+    TextView name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         Pic=findViewById(R.id.imageView4);
+        name=findViewById(R.id.textView2);
 
         Animation animation;
         animation = AnimationUtils.loadAnimation(getApplicationContext(),
                 R.anim.rotate);
         Pic.startAnimation(animation);
+
+        Animation animation1;
+        animation1 = AnimationUtils.loadAnimation(getApplicationContext(),
+                R.anim.fade);
+        name.startAnimation(animation1);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
